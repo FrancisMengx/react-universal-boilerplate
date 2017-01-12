@@ -1,0 +1,9 @@
+node_modules/
+npm-debug.log
+.DS_Store
+public/
+dist/
+deploy/
+deploy.zip
+config.server.json
+.vscode/
