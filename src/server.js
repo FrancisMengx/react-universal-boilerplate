@@ -30,6 +30,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use(cookieParser())
 
 app.use(express.static(path.join(__dirname, '/assets')))
+app.use(express.static(path.join(__dirname, '/public')))
 app.use(favicon(path.join(__dirname, '/assets/favicon.png')))
 
 //app.use('/api/v1', apiV1Routes)

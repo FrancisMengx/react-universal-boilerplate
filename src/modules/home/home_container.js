@@ -3,8 +3,8 @@ import React, {Component} from 'react'
 class Home extends Component {
   render() {
     return (
-      <div>
-        this is home page.
+      <div className="nav-bar">
+        <h1 className="nav-header">Post and Offer</h1>
       </div>
     )
   }
